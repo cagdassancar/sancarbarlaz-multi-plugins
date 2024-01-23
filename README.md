@@ -23,13 +23,27 @@ sancarbarlaz-multi-plugins is part of the Vue Ecosystem and is an MIT licensed o
   </a> -->
 </p>
 
-Get started with the [documentation](https://www.npmjs.com/package/sancarbarlaz-multi-plugins).
+## Installation
 
-## Quickstart
+```bash
+npm install sancarbarlaz-multi-plugins
+```
 
-- In-browser playground on [CodeSandbox](https://www.npmjs.com/package/sancarbarlaz-multi-plugins)
-- Add it to an existing Vue Project:
+## Usage
 
-  ```bash
-  npm install sancarbarlaz-multi-plugins
-  ```
+```javascript
+
+console.log("123".toPadLeft(5,'0'))  /* Result ---> 00123*/
+console.log("123".toPadRight(5,'0'))  /* Result ---> 12300*/
+console.log("cagdas".toFirstUpper())  /* Result ---> Cagdas*/
+console.log("A123".isNumber())  /* Result ---> false*/
+
+```
+## Functions
+| Name | Result | Description |
+| ----- | ----- | ----- |
+|isNumber|bool|Method that returns whether the String object can be converted to Number|
+|toPadLeft|string|Adds the specified number of objects to the left of the incoming object.|
+|toPadRight|string|Adds the specified number of objects to the right of the incoming object.||
+|toFirstUpper|string|Method that capitalizes the first letter of the object|
+

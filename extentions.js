@@ -1,3 +1,4 @@
+
 module.exports.TestFunc = function () {
-    return "Selam bu bir test fonksiyonudur."
-  }
+  return 'Hello World'
+}
